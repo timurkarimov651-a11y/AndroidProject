@@ -12,7 +12,8 @@
 
 ## 🧩 Функциональность
 
-<img width="407" height="876" alt="Снимок экрана 2025-11-26 160451" src="https://github.com/user-attachments/assets/c562a40b-09cb-4c4a-b0f1-e0600e0b88fc" />
+<img width="407" height="876" alt="Снимок экрана 2025-11-26 160451" src="https://github.com/user-attachments/assets/0fa199b9-8fea-4236-87a1-95cff7fd1f51" />
+
 
 ### Главная страница
 - **Три основные кнопки:**
@@ -20,7 +21,8 @@
   - 🔧 **Создать заявку на ремонт**
   - ✨ **Создать заявку на детейлинг**
     
-<img width="397" height="872" alt="Снимок экрана 2025-11-26 160543" src="https://github.com/user-attachments/assets/5a691c27-4989-45fe-9f60-075bddcace09" />
+<img width="397" height="872" alt="Снимок экрана 2025-11-26 160543" src="https://github.com/user-attachments/assets/0caefab6-b5b8-4f5b-80ba-b8e661ff31b5" />
+
 
 ### Создание заявки на ремонт
 Клиент заполняет следующие поля:
@@ -31,7 +33,7 @@
 5. Время
 6. Описание проблемы
    
-<img width="400" height="872" alt="Снимок экрана 2025-11-26 160606" src="https://github.com/user-attachments/assets/61bf9945-c6d8-4555-ab00-59099a57be2b" />
+<img width="400" height="872" alt="Снимок экрана 2025-11-26 160606" src="https://github.com/user-attachments/assets/e11f2ff3-9b62-41c8-a774-c1928b274fed" />
 
 ### Создание заявки на детейлинг
 Клиент заполняет:
@@ -42,7 +44,7 @@
 5. Время
 6. Email
    
-<img width="377" height="816" alt="Снимок экрана 2025-11-26 160640" src="https://github.com/user-attachments/assets/680fc1dd-3807-45ff-a788-601e37c3c540" />
+<img width="377" height="816" alt="Снимок экрана 2025-11-26 160640" src="https://github.com/user-attachments/assets/2d9e5fb5-d50b-4cbf-abd0-3abb9de14903" />
 
 ### Статистика
 - Просмотр всех активных заявок
@@ -51,4 +53,4 @@
   - Подтвердить выполнение
   - Удалить заявку
     
-    <img width="388" height="833" alt="Снимок экрана 2025-11-26 160739" src="https://github.com/user-attachments/assets/86a7cb15-31ee-49aa-8869-856f0700b8ec" />
+ <img width="388" height="833" alt="Снимок экрана 2025-11-26 160739" src="https://github.com/user-attachments/assets/d2440aab-0170-473e-a740-2fa426bfa41c" />
