@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- ДОБАВЛЕН ТЕКУЩАЯ ДАТА -->
+        <TextView
+            android:id="@+id/tv_current_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Сегодня: "
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="16dp"
+            android:textColor="@color/teal_200" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Создание заявки на детайлинг"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="24dp"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Имя владельца"
+            android:textSize="14sp"
+            android:layout_marginBottom="4dp"
+            android:textColor="@color/white" />
+
+        <EditText
+            android:id="@+id/et_owner_name"
+            android:inputType="textCapWords|textMultiLine"
+            android:imeOptions="actionDone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Введите имя"
+            android:layout_marginBottom="16dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/teal_200"
+            android:backgroundTint="@color/teal_200" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Номер телефона"
+            android:textSize="14sp"
+            android:layout_marginBottom="4dp"
+            android:textColor="@color/white" />
+
+        <EditText
+            android:id="@+id/et_phone"
+            android:layout_width="match_parent"
+            android:imeOptions="actionDone"
+            android:layout_height="wrap_content"
+            android:hint="Введите номер телефона"
+            android:inputType="phone"
+            android:layout_marginBottom="16dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/teal_200"
+            android:backgroundTint="@color/teal_200" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:textSize="14sp"
+            android:layout_marginBottom="4dp"
+            android:textColor="@color/white" />
+
+        <EditText
+            android:id="@+id/et_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:imeOptions="actionDone"
+            android:hint="Введите email"
+            android:inputType="textEmailAddress"
+            android:layout_marginBottom="16dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/teal_200"
+            android:backgroundTint="@color/teal_200" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Модель машины"
+            android:textSize="14sp"
+            android:layout_marginBottom="4dp"
+            android:textColor="@color/white" />
+
+        <EditText
+            android:id="@+id/et_device_model"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Введите модель машины"
+            android:layout_marginBottom="16dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/teal_200"
+            android:backgroundTint="@color/teal_200" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Дата (дд.мм.гггг)"
+            android:textSize="14sp"
+            android:layout_marginBottom="4dp"
+            android:textColor="@color/white" />
+
+        <EditText
+            android:id="@+id/et_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="дд.мм.гггг"
+            android:inputType="number"
+            android:layout_marginBottom="16dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/teal_200"
+            android:backgroundTint="@color/teal_200" />
+
+        <!-- ДОБАВЛЕНО ПОЛЕ ВРЕМЕНИ -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Время (чч:мм)"
+            android:textSize="14sp"
+            android:layout_marginBottom="4dp"
+            android:textColor="@color/white" />
+
+        <EditText
+            android:id="@+id/et_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="чч:мм"
+            android:inputType="number"
+            android:layout_marginBottom="24dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/teal_200"
+            android:backgroundTint="@color/teal_200" />
+
+        <Button
+            android:id="@+id/btn_create"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Создать заявку"
+            android:layout_marginBottom="16dp"
+            android:textSize="16sp"
+            android:backgroundTint="@color/purple_500"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Вернуться на главный"
+            android:textSize="16sp"
+            android:backgroundTint="@color/purple_500"
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+</ScrollView>
